@@ -178,6 +178,15 @@ export default function CrudPage({
 
   const allColumns = canWrite ? [...columns, actionsColumn] : columns;
 
+  const isFiltered =
+    Boolean(search) || Object.values(activeFilters || {}).some(Boolean);
+
+  const emptyText = isFiltered
+    ? "No records found. Try a different search or filter."
+    : canWrite
+    ? `No ${title.toLowerCase()} yet. Click "+ Add ${singular}" to create the first one.`
+    : `No ${title.toLowerCase()} to show yet.`;
+
   const renderField = (f) => {
     const common = {
       label: f.label,
@@ -202,15 +211,6 @@ export default function CrudPage({
         />
       );
     }
-
-    const isFiltered =
-      Boolean(search) || Object.values(activeFilters).some(Boolean);
-
-    const emptyText = isFiltered
-      ? "No records found. Try a different search or filter."
-      : canWrite
-      ? `No ${title.toLowerCase()} yet. Click "+ Add ${singular}" to create the first one.`
-      : `No ${title.toLowerCase()} to show yet.`;
 
     return (
       <FormInput
