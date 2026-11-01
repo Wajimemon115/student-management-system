@@ -1,0 +1,51 @@
+{"version":10,"type":"context-options","origin":"testRunner","browserName":"","playwrightVersion":"1.64.1","options":{},"platform":"win32","wallTime":1793537702345,"monotonicTime":42235.134,"sdkLanguage":"javascript"}
+{"type":"before","callId":"vbqo@1","startTime":42270.777,"class":"Test","method":"hook","title":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"vbqo@2","parentId":"vbqo@1","startTime":42271.452,"class":"Test","method":"hook","title":"beforeAll hook","params":{},"stack":[{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":145,"column":6}]}
+{"type":"before","callId":"vbqo@35","parentId":"vbqo@2","startTime":42301.417,"class":"Test","method":"pw:api","title":"Create request context","params":{},"stack":[{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":146,"column":9}]}
+{"type":"after","callId":"vbqo@35","endTime":42306.975,"annotations":[]}
+{"type":"before","callId":"vbqo@39","parentId":"vbqo@2","startTime":42318.878,"class":"Test","method":"pw:api","title":"GET","subtitle":"127.0.0.1:8000/api/health/","params":{"url":"http://127.0.0.1:8000/api/health/","method":"GET"},"stack":[{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":147,"column":25}]}
+{"type":"after","callId":"vbqo@39","endTime":42347.825,"annotations":[]}
+{"type":"before","callId":"vbqo@50","parentId":"vbqo@2","startTime":42381.132,"class":"Test","method":"fixture","title":"Fixture \"baseURL\"","params":{},"stack":[{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":15,"column":6}]}
+{"type":"after","callId":"vbqo@50","endTime":42381.365,"annotations":[]}
+{"type":"after","callId":"vbqo@2","endTime":42391.234,"annotations":[]}
+{"type":"before","callId":"vbqo@108","parentId":"vbqo@1","startTime":42405.607,"class":"Test","method":"fixture","title":"Fixture \"browser\"","params":{},"stack":[]}
+{"type":"before","callId":"vbqo@109","parentId":"vbqo@108","startTime":42407.166,"class":"Test","method":"pw:api","title":"Launch browser","params":{},"stack":[]}
+{"type":"after","callId":"vbqo@109","endTime":42595.382,"annotations":[]}
+{"type":"after","callId":"vbqo@108","endTime":42595.587,"annotations":[]}
+{"type":"before","callId":"vbqo@113","parentId":"vbqo@1","startTime":42597.873,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"vbqo@114","parentId":"vbqo@113","startTime":42599.895,"class":"Test","method":"pw:api","title":"Create context","params":{},"stack":[]}
+{"type":"after","callId":"vbqo@114","endTime":42611.636,"annotations":[]}
+{"type":"after","callId":"vbqo@113","endTime":42617.97,"annotations":[]}
+{"type":"before","callId":"vbqo@122","parentId":"vbqo@1","startTime":42618.532,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"before","callId":"vbqo@123","parentId":"vbqo@122","startTime":42619.639,"class":"Test","method":"pw:api","title":"Create page","params":{},"stack":[]}
+{"type":"after","callId":"vbqo@123","endTime":42786.202,"annotations":[]}
+{"type":"after","callId":"vbqo@122","endTime":42786.418,"annotations":[]}
+{"type":"after","callId":"vbqo@1","endTime":42786.524,"annotations":[]}
+{"type":"before","callId":"vbqo@126","startTime":42793.047,"class":"Test","method":"pw:api","title":"Navigate","subtitle":"/teachers","params":{"url":"/teachers"},"stack":[{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":178,"column":16}]}
+{"type":"after","callId":"vbqo@126","endTime":43568.351,"annotations":[]}
+{"type":"before","callId":"vbqo@128","startTime":43574.87,"class":"Test","method":"pw:api","title":"Click","subtitle":"getByRole('button', { name: '+ Add Teacher' })","params":{"locator":"getByRole('button', { name: '+ Add Teacher' })"},"stack":[{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":116,"column":65,"function":"openAdd"},{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":179,"column":11}]}
+{"type":"after","callId":"vbqo@128","endTime":43752.164,"annotations":[]}
+{"type":"before","callId":"vbqo@130","startTime":43762.313,"class":"Test","method":"expect","title":"Expect \"toBeVisible\"","subtitle":"locator('.modal-overlay .modal').getByRole('heading', { name: 'Add Teacher' })","params":{"locator":"locator('.modal-overlay .modal').getByRole('heading', { name: 'Add Teacher' })"},"stack":[{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":119,"column":5,"function":"openAdd"},{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":179,"column":5}]}
+{"type":"after","callId":"vbqo@130","endTime":43781.871,"annotations":[]}
+{"type":"before","callId":"vbqo@132","startTime":43783.432,"class":"Test","method":"pw:api","title":"Click","subtitle":"locator('.modal-overlay .modal').getByRole('button', { name: 'Save' })","params":{"locator":"locator('.modal-overlay .modal').getByRole('button', { name: 'Save' })"},"stack":[{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":122,"column":74,"function":"save"},{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":180,"column":11}]}
+{"type":"after","callId":"vbqo@132","endTime":43856.572,"annotations":[]}
+{"type":"before","callId":"vbqo@134","startTime":43858.705,"class":"Test","method":"expect","title":"Expect \"toBeVisible\"","subtitle":"locator('.modal-overlay .modal').getByText('Full Name is required')","params":{"locator":"locator('.modal-overlay .modal').getByText('Full Name is required')"},"stack":[{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":182,"column":66}]}
+{"type":"after","callId":"vbqo@134","endTime":43873.312,"annotations":[]}
+{"type":"before","callId":"vbqo@136","startTime":43874.779,"class":"Test","method":"expect","title":"Expect \"toBeVisible\"","subtitle":"locator('.modal-overlay .modal').getByText('Email is required')","params":{"locator":"locator('.modal-overlay .modal').getByText('Email is required')"},"stack":[{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":183,"column":62}]}
+{"type":"after","callId":"vbqo@136","endTime":43885.702,"annotations":[]}
+{"type":"before","callId":"vbqo@138","startTime":43886.954,"class":"Test","method":"expect","title":"Expect \"toBeVisible\"","subtitle":"locator('.modal-overlay .modal')","params":{"locator":"locator('.modal-overlay .modal')"},"stack":[{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":184,"column":31}]}
+{"type":"after","callId":"vbqo@138","endTime":43898.805,"annotations":[]}
+{"type":"before","callId":"vbqo@140","startTime":43899.521,"class":"Test","method":"expect","title":"Expect \"toBe\"","params":{},"stack":[{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":185,"column":20}]}
+{"type":"after","callId":"vbqo@140","endTime":43899.915,"annotations":[]}
+{"type":"before","callId":"vbqo@141","startTime":43900.356,"class":"Test","method":"hook","title":"After Hooks","params":{},"stack":[]}
+{"type":"before","callId":"vbqo@142","parentId":"vbqo@141","startTime":43901.456,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"after","callId":"vbqo@142","endTime":43901.564,"annotations":[]}
+{"type":"before","callId":"vbqo@143","parentId":"vbqo@141","startTime":43901.883,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"vbqo@149","parentId":"vbqo@143","startTime":44179.892,"class":"Test","method":"pw:api","title":"Close context","params":{},"stack":[]}
+{"type":"after","callId":"vbqo@149","endTime":44195.089,"annotations":[]}
+{"type":"after","callId":"vbqo@143","endTime":44195.247,"annotations":[]}
+{"type":"before","callId":"vbqo@161","parentId":"vbqo@141","startTime":44203.267,"class":"Test","method":"fixture","title":"Fixture \"baseURL\"","params":{},"stack":[{"file":"E:\\projects\\student-management-system\\frontend\\e2e\\phase5.spec.js","line":15,"column":6}]}
+{"type":"after","callId":"vbqo@161","endTime":44205.797,"annotations":[]}
+{"type":"after","callId":"vbqo@141","endTime":44213.403,"annotations":[]}
+{"type":"before","callId":"vbqo@187","startTime":44597.145,"class":"Test","method":"test.attach","title":"Attach \"trace\"","params":{},"stack":[]}
+{"type":"after","callId":"vbqo@187","endTime":44597.723,"attachments":[]}

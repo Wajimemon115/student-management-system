@@ -1,0 +1,85 @@
+{"version":10,"type":"context-options","origin":"library","browserName":"","playwrightVersion":"1.64.1","options":{},"platform":"win32","wallTime":1793537708647,"monotonicTime":48537.072,"sdkLanguage":"javascript","title":"e2e\\phase5.spec.js:198 › Teachers › 1c. adding a real teacher shows a green toast and the new row"}
+{"type":"before","callId":"vbqo@437","startTime":48540.823,"class":"APIRequestContext","method":"fetch","params":{"url":"http://127.0.0.1:8000/api/students/?search=E2E-7702321&page_size=100","method":"GET"}}
+{"type":"log","callId":"vbqo@437","time":48542.633,"message":"→ GET http://127.0.0.1:8000/api/students/?search=E2E-7702321&page_size=100"}
+{"type":"log","callId":"vbqo@437","time":48542.658,"message":"  user-agent: Playwright/1.64.1 (x64; windows 10.0) node/24.20"}
+{"type":"log","callId":"vbqo@437","time":48542.668,"message":"  accept: */*"}
+{"type":"log","callId":"vbqo@437","time":48542.675,"message":"  accept-encoding: gzip,deflate,br"}
+{"type":"log","callId":"vbqo@437","time":48550.304,"message":"← 200 OK"}
+{"type":"log","callId":"vbqo@437","time":48550.322,"message":"  date: Sun, 01 Nov 2026 12:55:08 GMT"}
+{"type":"log","callId":"vbqo@437","time":48550.328,"message":"  server: WSGIServer/0.2 CPython/3.14.7"}
+{"type":"log","callId":"vbqo@437","time":48550.334,"message":"  content-type: application/json"}
+{"type":"log","callId":"vbqo@437","time":48550.339,"message":"  vary: Accept, Cookie, origin"}
+{"type":"log","callId":"vbqo@437","time":48550.344,"message":"  allow: GET, POST, HEAD, OPTIONS"}
+{"type":"log","callId":"vbqo@437","time":48550.349,"message":"  x-frame-options: DENY"}
+{"type":"log","callId":"vbqo@437","time":48550.353,"message":"  content-length: 52"}
+{"type":"log","callId":"vbqo@437","time":48550.358,"message":"  x-content-type-options: nosniff"}
+{"type":"log","callId":"vbqo@437","time":48550.363,"message":"  referrer-policy: same-origin"}
+{"type":"log","callId":"vbqo@437","time":48550.368,"message":"  cross-origin-opener-policy: same-origin"}
+{"type":"after","callId":"vbqo@437","endTime":48550.544,"result":{"response":{"url":"http://127.0.0.1:8000/api/students/?search=E2E-7702321&page_size=100","status":200,"statusText":"OK","headers":[{"name":"Date","value":"Sun, 01 Nov 2026 12:55:08 GMT"},{"name":"Server","value":"WSGIServer/0.2 CPython/3.14.7"},{"name":"Content-Type","value":"application/json"},{"name":"Vary","value":"Accept, Cookie, origin"},{"name":"Allow","value":"GET, POST, HEAD, OPTIONS"},{"name":"X-Frame-Options","value":"DENY"},{"name":"Content-Length","value":"52"},{"name":"X-Content-Type-Options","value":"nosniff"},{"name":"Referrer-Policy","value":"same-origin"},{"name":"Cross-Origin-Opener-Policy","value":"same-origin"}],"serverAddr":{"ipAddress":"127.0.0.1","port":8000},"timing":{"startTime":1793537708652,"domainLookupStart":-1,"domainLookupEnd":-1,"connectStart":-1,"secureConnectionStart":-1,"connectEnd":-1,"requestStart":1.0899999999965075,"responseStart":7.258999999998196},"responseEndTiming":7.841000000000349,"fetchUid":"88c487cc94858c827e939d98c9f13695"}}}
+{"type":"before","callId":"vbqo@440","startTime":48555.028,"class":"APIRequestContext","method":"fetch","params":{"url":"http://127.0.0.1:8000/api/courses/?search=E2E-7702321&page_size=100","method":"GET"}}
+{"type":"log","callId":"vbqo@440","time":48555.869,"message":"→ GET http://127.0.0.1:8000/api/courses/?search=E2E-7702321&page_size=100"}
+{"type":"log","callId":"vbqo@440","time":48555.902,"message":"  user-agent: Playwright/1.64.1 (x64; windows 10.0) node/24.20"}
+{"type":"log","callId":"vbqo@440","time":48555.909,"message":"  accept: */*"}
+{"type":"log","callId":"vbqo@440","time":48555.914,"message":"  accept-encoding: gzip,deflate,br"}
+{"type":"log","callId":"vbqo@440","time":48562.056,"message":"← 200 OK"}
+{"type":"log","callId":"vbqo@440","time":48562.072,"message":"  date: Sun, 01 Nov 2026 12:55:08 GMT"}
+{"type":"log","callId":"vbqo@440","time":48562.078,"message":"  server: WSGIServer/0.2 CPython/3.14.7"}
+{"type":"log","callId":"vbqo@440","time":48562.082,"message":"  content-type: application/json"}
+{"type":"log","callId":"vbqo@440","time":48562.087,"message":"  vary: Accept, Cookie, origin"}
+{"type":"log","callId":"vbqo@440","time":48562.091,"message":"  allow: GET, POST, HEAD, OPTIONS"}
+{"type":"log","callId":"vbqo@440","time":48562.096,"message":"  x-frame-options: DENY"}
+{"type":"log","callId":"vbqo@440","time":48562.101,"message":"  content-length: 52"}
+{"type":"log","callId":"vbqo@440","time":48562.106,"message":"  x-content-type-options: nosniff"}
+{"type":"log","callId":"vbqo@440","time":48562.11,"message":"  referrer-policy: same-origin"}
+{"type":"log","callId":"vbqo@440","time":48562.114,"message":"  cross-origin-opener-policy: same-origin"}
+{"type":"after","callId":"vbqo@440","endTime":48562.342,"result":{"response":{"url":"http://127.0.0.1:8000/api/courses/?search=E2E-7702321&page_size=100","status":200,"statusText":"OK","headers":[{"name":"Date","value":"Sun, 01 Nov 2026 12:55:08 GMT"},{"name":"Server","value":"WSGIServer/0.2 CPython/3.14.7"},{"name":"Content-Type","value":"application/json"},{"name":"Vary","value":"Accept, Cookie, origin"},{"name":"Allow","value":"GET, POST, HEAD, OPTIONS"},{"name":"X-Frame-Options","value":"DENY"},{"name":"Content-Length","value":"52"},{"name":"X-Content-Type-Options","value":"nosniff"},{"name":"Referrer-Policy","value":"same-origin"},{"name":"Cross-Origin-Opener-Policy","value":"same-origin"}],"serverAddr":{"ipAddress":"127.0.0.1","port":8000},"timing":{"startTime":1793537708665,"domainLookupStart":-1,"domainLookupEnd":-1,"connectStart":-1,"secureConnectionStart":-1,"connectEnd":-1,"requestStart":0.532999999995809,"responseStart":5.943999999995867},"responseEndTiming":6.244999999995343,"fetchUid":"6677d592768e718ca420c99fdf0ed990"}}}
+{"type":"before","callId":"vbqo@443","startTime":48564.705,"class":"APIRequestContext","method":"fetch","params":{"url":"http://127.0.0.1:8000/api/teachers/?search=E2E-7702321&page_size=100","method":"GET"}}
+{"type":"log","callId":"vbqo@443","time":48565.245,"message":"→ GET http://127.0.0.1:8000/api/teachers/?search=E2E-7702321&page_size=100"}
+{"type":"log","callId":"vbqo@443","time":48565.264,"message":"  user-agent: Playwright/1.64.1 (x64; windows 10.0) node/24.20"}
+{"type":"log","callId":"vbqo@443","time":48565.269,"message":"  accept: */*"}
+{"type":"log","callId":"vbqo@443","time":48565.273,"message":"  accept-encoding: gzip,deflate,br"}
+{"type":"log","callId":"vbqo@443","time":48576.711,"message":"← 200 OK"}
+{"type":"log","callId":"vbqo@443","time":48576.726,"message":"  date: Sun, 01 Nov 2026 12:55:08 GMT"}
+{"type":"log","callId":"vbqo@443","time":48576.733,"message":"  server: WSGIServer/0.2 CPython/3.14.7"}
+{"type":"log","callId":"vbqo@443","time":48576.738,"message":"  content-type: application/json"}
+{"type":"log","callId":"vbqo@443","time":48576.743,"message":"  vary: Accept, Cookie, origin"}
+{"type":"log","callId":"vbqo@443","time":48576.749,"message":"  allow: GET, POST, HEAD, OPTIONS"}
+{"type":"log","callId":"vbqo@443","time":48576.753,"message":"  x-frame-options: DENY"}
+{"type":"log","callId":"vbqo@443","time":48576.758,"message":"  content-length: 184"}
+{"type":"log","callId":"vbqo@443","time":48576.763,"message":"  x-content-type-options: nosniff"}
+{"type":"log","callId":"vbqo@443","time":48576.768,"message":"  referrer-policy: same-origin"}
+{"type":"log","callId":"vbqo@443","time":48576.772,"message":"  cross-origin-opener-policy: same-origin"}
+{"type":"after","callId":"vbqo@443","endTime":48576.899,"result":{"response":{"url":"http://127.0.0.1:8000/api/teachers/?search=E2E-7702321&page_size=100","status":200,"statusText":"OK","headers":[{"name":"Date","value":"Sun, 01 Nov 2026 12:55:08 GMT"},{"name":"Server","value":"WSGIServer/0.2 CPython/3.14.7"},{"name":"Content-Type","value":"application/json"},{"name":"Vary","value":"Accept, Cookie, origin"},{"name":"Allow","value":"GET, POST, HEAD, OPTIONS"},{"name":"X-Frame-Options","value":"DENY"},{"name":"Content-Length","value":"184"},{"name":"X-Content-Type-Options","value":"nosniff"},{"name":"Referrer-Policy","value":"same-origin"},{"name":"Cross-Origin-Opener-Policy","value":"same-origin"}],"serverAddr":{"ipAddress":"127.0.0.1","port":8000},"timing":{"startTime":1793537708675,"domainLookupStart":-1,"domainLookupEnd":-1,"connectStart":-1,"secureConnectionStart":-1,"connectEnd":-1,"requestStart":0.36200000000098953,"responseStart":10.986000000004424},"responseEndTiming":11.258999999998196,"fetchUid":"619ee93ff6c162c3ef6a4a4e5cf06622"}}}
+{"type":"before","callId":"vbqo@446","startTime":48580.003,"class":"APIRequestContext","method":"fetch","params":{"url":"http://127.0.0.1:8000/api/teachers/96/","method":"DELETE"}}
+{"type":"log","callId":"vbqo@446","time":48580.57,"message":"→ DELETE http://127.0.0.1:8000/api/teachers/96/"}
+{"type":"log","callId":"vbqo@446","time":48580.588,"message":"  user-agent: Playwright/1.64.1 (x64; windows 10.0) node/24.20"}
+{"type":"log","callId":"vbqo@446","time":48580.594,"message":"  accept: */*"}
+{"type":"log","callId":"vbqo@446","time":48580.599,"message":"  accept-encoding: gzip,deflate,br"}
+{"type":"log","callId":"vbqo@446","time":48599.45,"message":"← 204 No Content"}
+{"type":"log","callId":"vbqo@446","time":48599.468,"message":"  date: Sun, 01 Nov 2026 12:55:08 GMT"}
+{"type":"log","callId":"vbqo@446","time":48599.475,"message":"  server: WSGIServer/0.2 CPython/3.14.7"}
+{"type":"log","callId":"vbqo@446","time":48599.48,"message":"  vary: Accept, Cookie, origin"}
+{"type":"log","callId":"vbqo@446","time":48599.484,"message":"  allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS"}
+{"type":"log","callId":"vbqo@446","time":48599.489,"message":"  x-frame-options: DENY"}
+{"type":"log","callId":"vbqo@446","time":48599.493,"message":"  content-length: 0"}
+{"type":"log","callId":"vbqo@446","time":48599.498,"message":"  x-content-type-options: nosniff"}
+{"type":"log","callId":"vbqo@446","time":48599.502,"message":"  referrer-policy: same-origin"}
+{"type":"log","callId":"vbqo@446","time":48599.506,"message":"  cross-origin-opener-policy: same-origin"}
+{"type":"after","callId":"vbqo@446","endTime":48599.629,"result":{"response":{"url":"http://127.0.0.1:8000/api/teachers/96/","status":204,"statusText":"No Content","headers":[{"name":"Date","value":"Sun, 01 Nov 2026 12:55:08 GMT"},{"name":"Server","value":"WSGIServer/0.2 CPython/3.14.7"},{"name":"Vary","value":"Accept, Cookie, origin"},{"name":"Allow","value":"GET, PUT, PATCH, DELETE, HEAD, OPTIONS"},{"name":"X-Frame-Options","value":"DENY"},{"name":"Content-Length","value":"0"},{"name":"X-Content-Type-Options","value":"nosniff"},{"name":"Referrer-Policy","value":"same-origin"},{"name":"Cross-Origin-Opener-Policy","value":"same-origin"}],"serverAddr":{"ipAddress":"127.0.0.1","port":8000},"timing":{"startTime":1793537708690,"domainLookupStart":-1,"domainLookupEnd":-1,"connectStart":-1,"secureConnectionStart":-1,"connectEnd":-1,"requestStart":0.397000000004482,"responseStart":18.431000000004133},"responseEndTiming":18.770000000004075,"fetchUid":"e3f96da4dcd1b3eb6a1bc26c6dd3ee10"}}}
+{"type":"before","callId":"vbqo@448","startTime":48601.33,"class":"APIRequestContext","method":"fetch","params":{"url":"http://127.0.0.1:8000/api/teachers/?search=E2E-7702321&page_size=100","method":"GET"}}
+{"type":"log","callId":"vbqo@448","time":48601.893,"message":"→ GET http://127.0.0.1:8000/api/teachers/?search=E2E-7702321&page_size=100"}
+{"type":"log","callId":"vbqo@448","time":48601.911,"message":"  user-agent: Playwright/1.64.1 (x64; windows 10.0) node/24.20"}
+{"type":"log","callId":"vbqo@448","time":48601.916,"message":"  accept: */*"}
+{"type":"log","callId":"vbqo@448","time":48601.92,"message":"  accept-encoding: gzip,deflate,br"}
+{"type":"log","callId":"vbqo@448","time":48607.941,"message":"← 200 OK"}
+{"type":"log","callId":"vbqo@448","time":48607.972,"message":"  date: Sun, 01 Nov 2026 12:55:08 GMT"}
+{"type":"log","callId":"vbqo@448","time":48607.98,"message":"  server: WSGIServer/0.2 CPython/3.14.7"}
+{"type":"log","callId":"vbqo@448","time":48607.986,"message":"  content-type: application/json"}
+{"type":"log","callId":"vbqo@448","time":48607.991,"message":"  vary: Accept, Cookie, origin"}
+{"type":"log","callId":"vbqo@448","time":48607.996,"message":"  allow: GET, POST, HEAD, OPTIONS"}
+{"type":"log","callId":"vbqo@448","time":48608,"message":"  x-frame-options: DENY"}
+{"type":"log","callId":"vbqo@448","time":48608.006,"message":"  content-length: 52"}
+{"type":"log","callId":"vbqo@448","time":48608.01,"message":"  x-content-type-options: nosniff"}
+{"type":"log","callId":"vbqo@448","time":48608.014,"message":"  referrer-policy: same-origin"}
+{"type":"log","callId":"vbqo@448","time":48608.019,"message":"  cross-origin-opener-policy: same-origin"}
+{"type":"after","callId":"vbqo@448","endTime":48608.219,"result":{"response":{"url":"http://127.0.0.1:8000/api/teachers/?search=E2E-7702321&page_size=100","status":200,"statusText":"OK","headers":[{"name":"Date","value":"Sun, 01 Nov 2026 12:55:08 GMT"},{"name":"Server","value":"WSGIServer/0.2 CPython/3.14.7"},{"name":"Content-Type","value":"application/json"},{"name":"Vary","value":"Accept, Cookie, origin"},{"name":"Allow","value":"GET, POST, HEAD, OPTIONS"},{"name":"X-Frame-Options","value":"DENY"},{"name":"Content-Length","value":"52"},{"name":"X-Content-Type-Options","value":"nosniff"},{"name":"Referrer-Policy","value":"same-origin"},{"name":"Cross-Origin-Opener-Policy","value":"same-origin"}],"serverAddr":{"ipAddress":"127.0.0.1","port":8000},"timing":{"startTime":1793537708712,"domainLookupStart":-1,"domainLookupEnd":-1,"connectStart":-1,"secureConnectionStart":-1,"connectEnd":-1,"requestStart":0.4040000000022701,"responseStart":5.557999999997264},"responseEndTiming":5.8549999999959255,"fetchUid":"c326d409ade407b1e59469d36087dfdd"}}}
